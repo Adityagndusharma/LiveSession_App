@@ -4,7 +4,7 @@ import { MeetContext } from "../context/MeetContext";
 
 const MeetPage = ({ match }) => {
 	//AS OF NOW DOMAIN WOULD BE JITSI'S AS WE ARE STILL USING THIER SERVERS
-	const domain = "172-232-77-224.ip.linodeusercontent.com";
+	const domain = "meet.jit.si";
 	let api = {};
 
 	const history = useHistory();
